@@ -33047,7 +33047,7 @@ $.ai()
 o=new A.z5(s,A.q_(m,A.DC(B.eG,A.d([A.aho(A.q_(m,m,B.a3,m,m,m,m,m,m),new A.ve(5,5,m)),A.ahH(A.ac1(""+l,A.aqO().$4$color$fontSize$fontWeight$letterSpacing(B.xv,32,B.bH,-2)),m,m)],t.nA),B.es),m,new A.f2(r,m,p,q,o,m,B.bz),m,B.KG,m,m,m),m)
 l=o}return new A.pj(l,B.ff,new A.a0Z(n),m)},
 Pw(a){var s,r,q,p,o=null,n=J.aaw(101,t.N)
-for(s=0;s<101;++s)n[s]="assets/image"+s+".png"
+for(s=0;s<101;++s)n[s]="assets/image "+s+".jpg"
 r=A.LU(8)
 q=A.a9b(B.xL,2)
 p=A.d([new A.f3(5,B.eL,A.bv(B.c.am(76.5),B.f5.O()>>>16&255,B.f5.O()>>>8&255,B.f5.O()&255),B.j,8)],t.xq)
