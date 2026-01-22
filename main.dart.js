@@ -7149,10 +7149,10 @@ _.f=e
 _.r=0
 _.w=!1},
 amX(){var s,r,q=t.N,p=J.AG(10,q)
-for(s=0;s<10;++s)p[s]=B.d.ly(B.f.k(s),2,"0")
+for(s=0;s<10;++s)p[s]=B.f.k(s)
 r=A.X(p,q)
 p=J.AG(101,q)
-for(s=0;s<101;++s)p[s]=B.f.k(s)
+for(s=0;s<101;++s)p[s]=B.d.ly(B.f.k(s),2,"0")
 B.b.J(r,p)
 return new A.FY(r)},
 qL:function qL(a){this.a=a},
@@ -33059,10 +33059,10 @@ $.ai()
 o=new A.z4(s,A.zi(m,A.DD(B.eG,A.d([A.aho(A.zi(m,m,B.a3,m,m,m,m,m,m),new A.ve(5,5,m)),A.ahH(A.ac1(n.e,A.aqP().$4$color$fontSize$fontWeight$letterSpacing(B.xw,32,B.bH,-2)),m,m)],t.nA),B.es),m,new A.f2(r,m,p,q,o,m,B.bz),m,B.KH,m,m,m),m)
 s=o}return new A.pj(s,B.ff,new A.a10(n),m)},
 Pw(a){var s,r,q,p,o=null,n=t.N,m=J.AG(10,n)
-for(s=0;s<10;++s)m[s]="assets/image "+B.d.ly(B.f.k(s),2,"0")+".jpg"
+for(s=0;s<10;++s)m[s]="assets/image "+B.f.k(s)+".jpg"
 r=A.X(m,n)
 m=J.AG(101,n)
-for(s=0;s<101;++s)m[s]="assets/image "+s+".jpg"
+for(s=0;s<101;++s)m[s]="assets/image "+B.d.ly(B.f.k(s),2,"0")+".jpg"
 B.b.J(r,m)
 n=A.LV(8)
 q=A.a9c(B.xM,2)
@@ -62103,7 +62103,7 @@ B.yj=new A.aL(-38e3)
 B.yk=new A.NQ(0,"tonalSpot")
 B.dA=new A.bY(0,0,0,0)
 B.yl=new A.bY(16,0,16,0)
-B.ym=new A.bY(50,0,50,50)
+B.ym=new A.bY(20,0,20,20)
 B.yn=new A.qu(null)
 B.yo=new A.qw(0,"noOpinion")
 B.yp=new A.qw(1,"enabled")
